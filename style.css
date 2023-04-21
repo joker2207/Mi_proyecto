@@ -1,0 +1,227 @@
+body {
+	background-color: #E5E5E5;
+}
+
+header img {
+	height: 48px;
+	width: 120px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+}
+
+main {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 20px;
+}
+
+.botones #btnEncriptar {
+	background-color: blue;
+	height: 67px;
+	width: 136px;
+	border-radius: 24px;
+	padding: 24px;
+	color: white;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.botones #btnDesencriptar {
+	background-color: blue;
+	height: 67px;
+	width: 136px;
+	border-radius: 24px;
+	padding: 24px;
+	color: white;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+	display: inline-block;
+}
+
+
+#imagenes {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.muñeco {
+	height: 304px;
+	width: 336px;
+	left: 1032px;
+	top: 283px;
+	border-radius: 0px;
+}
+
+.frame {
+	height: 122px;
+	width: 336px;
+	left: 1032px;
+	top: 619px;
+	border-radius: 0px;
+}
+
+.botones p {
+	height: 18px;
+	width: 205px;
+	left: 24px;
+	top: 0px;
+	border-radius: 0px;
+}
+
+
+#btnEncriptar:hover {
+	background-color: white;
+	color: blue;
+	height: 67px;
+	width: 136px;
+	left: 24px;
+	top: 107px;
+	border-radius: 24px;
+	padding: 24px;
+
+}
+
+#btnDesencriptar:hover {
+	background-color: white;
+	color: blue;
+	height: 67px;
+	width: 136px;
+	left: 24px;
+	top: 107px;
+	border-radius: 24px;
+	padding: 24px;
+}
+
+#btnCopiar {
+	background-color: blue;
+	height: 67px;
+	width: 136px;
+	left: 24px;
+	top: 24px;
+	border-radius: 24px;
+	padding: 24px;
+	color: white;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+#btnCopiar:hover {
+	background-color: white;
+	color: blue;
+	height: 67px;
+	width: 136px;
+	left: 24px;
+	top: 107px;
+	border-radius: 24px;
+	padding: 24px;
+}
+
+#texto {
+	width: 90%;
+	height: 100%;
+	left: 240px;
+	top: 168px;
+	border-radius: 25px;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0A3871;
+}
+
+#textoEncriptado {
+	width: 50%;
+	height: 100%;
+	left: 240px;
+	top: 168px;
+	border-radius: 25px;
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #0A3871;
+}
+
+
+
+.botones {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.botones p {
+	position: absolute;
+	font-size: 11px;
+	top: -35px;
+	left: 0;
+	color: negro;
+	font-weight: bold;
+}
+
+
+#btnCopiar {
+	display: block;
+	margin: 0 auto;
+}
+
+.wrapper {
+	position: relative;
+	padding-bottom: 80px;
+	margin-bottom: 150px;
+	/* ajusta este valor según el tamaño de tu footer */
+}
+
+footer {
+	width: 100%;
+	min-height: 100px;
+	max-height: 200px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: transparent;
+	padding: 20px;
+	color: red;
+	font-weight: bold;
+}
+
+
+.col-6 {
+	border-radius: 25px;
+}
+
+#redesSociales a {
+	color: #333;
+}
+
+#redesSociales a:hover {
+	color: fuchsia;
+}
+
+p.small {
+	font-size: 0.8em;
+}
